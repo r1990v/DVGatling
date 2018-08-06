@@ -1,0 +1,1 @@
+{"messageCode":"ASSET ASSIGNED SUCCESSFULLY"}

@@ -1,0 +1,1 @@
+{"messageCode":"SUCCESS_REQUESTED_DATA_EXIST","assetAllocations":[{"assetType":"AST-d0ffa87c-853a-467a-9f37-851100e6226f","assetTypeName":"Tractor6050/puddler8","allocations":[]}]}

@@ -1,0 +1,17 @@
+RUN	com.testing.performance.DeltaVergeSecurityEnv		deltavergesecurityenv	1532335533616	 	2.0
+USER	DeltaVergeSecurityEnv	1	START	1532335534541	1532335534541
+REQUEST	DeltaVergeSecurityEnv	1		1_Agent_Login_ISAM	1532335534627	1532335534627	KO	j.n.ConnectException: Connection refused: no further information: /127.0.0.1:8888
+GROUP	Failed to build request 2_Agent_PANM: No attribute named 'cor_access_token' is defined 	1532335535910
+GROUP	Failed to build request 3_Get_Wall_Details: No attribute named 'cor_access_token' is defined 	1532335536670
+GROUP	Failed to build request 4_Get_Retrieve_Territories: No attribute named 'cor_access_token' is defined 	1532335537671
+GROUP	Failed to build request 6_Find_Org: No attribute named 'cor_access_token' is defined 	1532335538669
+GROUP	Failed to build request 7_Contract_Request: No attribute named 'cor_access_token' is defined 	1532335539675
+GROUP	Failed to build request 8_Wall_Refresh: No attribute named 'cor_access_token' is defined 	1532335540662
+REQUEST	DeltaVergeSecurityEnv	1		1_Account_Admin_Login_ISAM	1532335545669	1532335545669	KO	j.n.ConnectException: Connection refused: no further information: /127.0.0.1:8888
+GROUP	Failed to build request 2_Account_Admin_PANM: No attribute named 'cor_aa_access_token' is defined 	1532335546683
+GROUP	Failed to build request 3_Load_AA_Wall: No attribute named 'cor_aa_access_token' is defined 	1532335547669
+GROUP	Failed to build request 4_View_Random_Card: No attribute named 'cor_aa_access_token' is defined 	1532335550679
+GROUP	Failed to build request 5_View_CR_order_details: No attribute named 'cor_cr_id' is defined 	1532335553681
+GROUP	Failed to build request 6_Confirm_Contract: No attribute named 'cor_aa_access_token' is defined 	1532335554682
+GROUP	Failed to build request 7_Assign_Asset: No attribute named 'cor_aa_access_token' is defined 	1532335555683
+USER	DeltaVergeSecurityEnv	1	END	1532335534541	1532335562696

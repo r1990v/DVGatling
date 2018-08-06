@@ -1,0 +1,18 @@
+RUN	com.testing.performance.DeltaVergeSecurityEnv		deltavergesecurityenv	1531824325692	 	2.0
+USER	DeltaVergeSecurityEnv	1	START	1531824326260	1531824326260
+REQUEST	DeltaVergeSecurityEnv	1		1_Agent_Login_ISAM	1531824326328	1531824328286	OK	 
+REQUEST	DeltaVergeSecurityEnv	1		2_PANM	1531824329346	1531824329989	OK	 
+REQUEST	DeltaVergeSecurityEnv	1		3_Get_Wall_Details	1531824330972	1531824332235	OK	 
+REQUEST	DeltaVergeSecurityEnv	1		4_Get_Retrieve_Territories	1531824333270	1531824333734	OK	 
+REQUEST	DeltaVergeSecurityEnv	1		5_Find_Service_Line	1531824333760	1531824334646	OK	 
+REQUEST	DeltaVergeSecurityEnv	1		6_Find_Org	1531824335645	1531824336014	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 500
+REQUEST	DeltaVergeSecurityEnv	1		7_Contract_Request	1531824337020	1531824337669	OK	 
+REQUEST	DeltaVergeSecurityEnv	1		8_Wall_Refresh	1531824338671	1531824339725	OK	 
+REQUEST	DeltaVergeSecurityEnv	1		1_Account_Admin_Login_ISAM	1531824344732	1531824345487	OK	 
+REQUEST	DeltaVergeSecurityEnv	1		2_PANM	1531824346474	1531824347057	OK	 
+REQUEST	DeltaVergeSecurityEnv	1		3_Load_AA_Wall	1531824348066	1531824349104	OK	 
+REQUEST	DeltaVergeSecurityEnv	1		4_View_Random_Card	1531824352111	1531824352837	OK	 
+REQUEST	DeltaVergeSecurityEnv	1		5_View_CR_order_details	1531824355828	1531824356671	OK	 
+REQUEST	DeltaVergeSecurityEnv	1		6_Confirm_Contract	1531824357693	1531824358572	OK	 
+GROUP	Failed to build request 7_Assign_Asset: No attribute named 'cor_cc_id' is defined 	1531824359563
+USER	DeltaVergeSecurityEnv	1	END	1531824326260	1531824366564

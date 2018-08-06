@@ -1,0 +1,1 @@
+{"allocationId":null,"startDate":"2018-07-13T05: 30:00.000Z","endDate":"2018-07-15T05: 30:00.000Z","associatedInstrument":"CC-20180713317ED27F","manager":null,"assignee":null,"allocationStatus":null,"assets":[]}
